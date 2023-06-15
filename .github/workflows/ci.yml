@@ -1,10 +1,10 @@
-name: CI RCLC Iron
+name: CI RCLC Rolling
 
 on:
   push:
-    branches: [ iron ]
+    branches: [ rolling ]
   pull_request:
-    branches: [ iron ]
+    branches: [ rolling ]
   schedule:
     # Run once per day to detect broken dependencies.
     - cron: '33 6 * * *'
@@ -16,10 +16,10 @@ jobs:
       fail-fast: false
       matrix:
         os: [ ubuntu-22.04 ]
-        ros_distribution: [ iron ]
+        ros_distribution: [ rolling ]
         include:
           - docker_image: ubuntu:jammy
-            ros_distribution: iron
+            ros_distribution: rolling
     container:
       image: ${{ matrix.docker_image }}
     steps:

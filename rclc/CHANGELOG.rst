@@ -2,12 +2,12 @@
 Changelog for package rclc
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-5.0.1 (2023-06-15)
+6.1.0 (2023-06-15)
 ------------------
 * Data structures interfaces for multi-threaded executor (#355)
-* Updated ros-tooling versions (#361)
-* Updated actions/checkout version (#367)
-* Updated branch and distribution name to iron (#371)
+* update ros-tooling versions (#361)
+* updated actions/checkout version (#367)
+* updated branch names to rolling (#370)
 
 3.0.9 (2023-03-22)
 ------------------

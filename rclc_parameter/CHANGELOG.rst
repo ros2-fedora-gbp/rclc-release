@@ -2,7 +2,7 @@
 Changelog for package rclc_parameter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-5.0.1 (2023-06-15)
+6.1.0 (2023-06-15)
 ------------------
 * Add empty set_atomically parameter service (#354)
 
